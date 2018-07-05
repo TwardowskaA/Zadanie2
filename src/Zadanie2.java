@@ -5,10 +5,10 @@ public class Zadanie2 {
         //Konsola Nintendo Wii U
 
 
-        Konsola konsola1 = new Konsola();
-        konsola1.name = "Nintendo Wii U";
-        konsola1.producer = "Nintendo";
-        konsola1.realiseDate = 2012;
+        Konsola konsola1 = new Konsola("Nintendo Wii U","Nintendo",2012);
+//        konsola1.name = "Nintendo Wii U";
+//        konsola1.producer = "Nintendo";
+//        konsola1.realiseDate = 2012;
 
             System.out.println("nazwa:" + " "  + konsola1.name);
             System.out.println("producent:" + " " + konsola1.producer);
@@ -18,14 +18,13 @@ public class Zadanie2 {
         //Konsola Nintendo Switch
 
 
-        Konsola konsola2 = new Konsola();
-        konsola2.name = "Nintendo Switch";
-        konsola2.producer = "Nintendo";
-        konsola2.realiseDate = 2017;
+        Konsola konsola2 = new Konsola("Nintendo Switch","Nintendo",2017);
+//        konsola2.name = "Nintendo Switch";
+//        konsola2.producer = "Nintendo";
+//        konsola2.realiseDate = 2017;
 
              System.out.println("nazwa:" + " " + konsola2.name);
              System.out.println("producent:" + " " + konsola2.producer);
              System.out.println("data wydania:" + " " + konsola2.realiseDate);
     }
-
 }

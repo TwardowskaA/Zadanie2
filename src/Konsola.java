@@ -3,4 +3,11 @@ public class Konsola {
     String producer;
     int realiseDate;
 
+    Konsola(String n, String p, int date) {
+        name = n;
+        producer = p;
+        realiseDate = date;
+    }
 }
+
+
